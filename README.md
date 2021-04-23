@@ -4,7 +4,7 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 
 ## Demo
 
-### [https://next-blog-wordpress.vercel.app](https://next-blog-wordpress.vercel.app)
+### [Static Wordpress Movies](https://static-wp-movie.vercel.app/)
 
 ## Deploy your own
 
