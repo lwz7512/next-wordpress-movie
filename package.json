@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "copy": "cp -R out/ ../../static-wp-movie"
   },
   "dependencies": {
     "classnames": "2.2.6",

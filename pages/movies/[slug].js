@@ -8,6 +8,7 @@ import MovieHeader from '../../components/movie-header'
 import Layout from '../../components/layout'
 import SectionSeparator from '../../components/section-separator'
 import PostTitle from '../../components/post-title'
+import NavBar from '../../components/nav-bar'
 import { CMS_NAME } from '../../lib/constants'
 import { getAllMoviesWithSlug, getMovieBy } from '../../lib/service'
 
@@ -22,12 +23,12 @@ export default function MovieDetail({ post, }) {
   return (
     <Layout>
       <Container>
-        <Header />
+        <NavBar activePage="/movies" />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article>
+            <article className="my-20">
               <Head>
                 <title>
                   {post.title} | Next.js Blog Example with {CMS_NAME}
