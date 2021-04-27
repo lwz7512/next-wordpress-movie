@@ -38,14 +38,16 @@ export default function MovieDetail({ post, }) {
                   content={post.movieAcfGroup?.cover?.sourceUrl}
                 />
               </Head>
-              <MovieHeader
-                title={post.title}
-                coverImage={post.movieAcfGroup?.cover}
-                date={post.date}
-                author={post.author?.node}
-                director={post.movieAcfGroup?.director}
-                producer={post.movieAcfGroup?.producer}
-              />
+              <Container className="px-20">
+                <MovieHeader
+                  title={post.title}
+                  coverImage={post.movieAcfGroup?.cover}
+                  date={post.date}
+                  author={post.author?.node}
+                  director={post.movieAcfGroup?.director}
+                  producer={post.movieAcfGroup?.producer}
+                />
+              </Container>
               <SectionSeparator />
               <PostBody content={post.movieAcfGroup.description} />
             </article>
