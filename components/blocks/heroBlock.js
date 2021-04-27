@@ -54,9 +54,14 @@ export default function HeroBlock({ dataset }) {
     color: '#FFF',
   }
 
+  const heroStl = {
+    position: 'relative',
+    minHeight: 400,
+  }
+
   return (
     <section>
-      <div style={{position: 'relative'}} >
+      <div style={heroStl} >
         <img src={node.backgroundImage.sourceUrl} style={{width: '100%'}} />
         <h1 style={titleStl}>
           {node.title}
