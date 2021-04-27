@@ -55,7 +55,7 @@
 
   return (
     <section style={sectionStl}>
-      <h1 className="pb-10" style={titleStl} >Testimonial Block</h1>
+      <h1 className="pb-10 text-gray-400" style={titleStl} >Testimonial Block</h1>
       <div style={rowStl}>
         {
           dataset.map(node => (

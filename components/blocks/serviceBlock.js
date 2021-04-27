@@ -45,7 +45,7 @@
 
   return (
     <section style={sectionStl} >
-      <h1 className="pb-10">Service Block</h1>
+      <h1 className="pb-10 text-gray-400">Service Block</h1>
       <div style={row}>
         {
           dataset.map((node, i) => (

@@ -24,7 +24,7 @@
 
   return (
     <section style={sectionStl}>
-      <h1 className="pb-10">Strength Block</h1>
+      <h1 className="pb-10 text-gray-400">Strength Block</h1>
       <ul style={ulStl} className="px-20 py-10">
         {
           dataset.map(node => (
