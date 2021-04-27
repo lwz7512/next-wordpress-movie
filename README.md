@@ -67,4 +67,4 @@ the high level architechture:
 
 - Each Field(named as `XXX Block`) in Field Group select `Flexible Content` for `Field Type`.
 - Each Field in Layout using `Table` layout as a recommended value for a compact way.
-- Check `Content Editor` in Hide on screen section while edit your Fild Group, this will enable your default classic editor hidden in page edit interface, just leave more space for Field group edit.
+- Check `Content Editor` in Hide on screen section while edit your Field Group, this will enable your default classic editor hidden in page edit interface, just leave more space for Field group edit.
