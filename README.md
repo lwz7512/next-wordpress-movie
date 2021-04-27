@@ -34,6 +34,7 @@ the high level architechture:
 - [Advanced Custom Fields pro](https://www.advancedcustomfields.com/pro/)
 - [WPGraphQL](https://wordpress.org/plugins/wp-graphql/)
 - [WPGraphQL for Advanced Custom Fields](https://github.com/wp-graphql/wp-graphql-acf)
+- [Custom Post Type UI](https://en-ca.wordpress.org/plugins/custom-post-type-ui/)
 
 ## Develop your own Headless Wordpress app
 
