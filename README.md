@@ -56,11 +56,11 @@ the high level architechture:
 
 ### ACF group for Home page 
 
-![ACF group for Home page](./public/acf_home_tpl.png)
+![ACF group for Home page](./docs/acf_home_tpl.png)
 
 ### Home page edit with ACF group
 
-![ACF group for Home page](./public/acf_home_pg.png)
+![ACF group for Home page](./docs/acf_home_pg.png)
 
 
 ## ACFs Structure tips
