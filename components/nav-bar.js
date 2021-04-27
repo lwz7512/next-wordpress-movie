@@ -1,8 +1,23 @@
 import Link from 'next/link'
 
 export default function NavBar({ activePage }) {
+
+  const navStl = {
+    display: 'flex', 
+    backgroundColor: '#444'
+  }
+
+  const logo = {
+    display: 'inline-block',
+    color: '#FFF',
+    backgroundColor: '#222',
+    fontSize: 20,
+    padding: '10px 30px',
+  }
+
   return (
-    <nav>
+    <nav style={navStl} >
+      <h1 style={logo}>Next WP</h1>
       <ul>
         <li>
           <Link href="/">
