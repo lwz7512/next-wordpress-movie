@@ -2,12 +2,12 @@
 
 With the help of WPGraphQL plugin, we could retrieve wordpress pages meta data composed by Advanced Custom Fields, then consume these graphql dataset in Nextjs pages through `getStaticProps` function, injecting retrieved data to page components.
 
-the high level architechture:
+the higher level architechture:
 
-- Wordpress, as data store management system
-- WPGraphQL plugin, as wordpress api bridge
-- Advanced Custom Fields plugin, as wp page meta data composer
-- Next.js, as Reactjs app builder
+- ⬇️ Wordpress, as data store management system
+- ⬇️ Advanced Custom Fields plugin, as wp page meta data composer
+- ⬇️ WPGraphQL plugin, as wordpress api bridge
+- ⬇️ Next.js, as front-end app builder
 
 ## Usage Scenario
 
@@ -21,7 +21,7 @@ the high level architechture:
 [Static Wordpress Movies](https://static-wp-movie.vercel.app/)
 
 
-## Installation
+## Prerequisite Installation
 
 - Wordpress
 - MySQL

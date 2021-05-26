@@ -8,6 +8,7 @@ import Container from '../components/container'
 import NavBar from '../components/nav-bar'
 import { queryHomePageMeta } from '../lib/home-data'
 import Blocks, { NullBlock } from '../components/blocks'
+import React from 'react'
 
 export default function Index({ meta }) {
 
@@ -25,11 +26,9 @@ export default function Index({ meta }) {
               if (!DynaBlock) return (
                 <NullBlock name={block} key="nullBlock" />
               )
-              return (
-                <DynaBlock 
-                  key={block} 
-                  dataset={meta[block]} 
-                />
+              return React.createElement(
+                DynaBlock, 
+                {key:block, dataset:meta[block]}
               )
             })
           }
